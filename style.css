@@ -14,6 +14,36 @@ button {
   font-size: 7px;
 }
 
+#tasks {
+  list-style: none;
+  padding-left: 0;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 4px 0;
+  font-weight: bold;
+}
+
+.task.high {
+  color: red;
+}
+
+.task.medium {
+  color: #b8860b;
+}
+
+.task.low {
+  color: green;
+}
+
+.delete-task {
+  font-size: 12px;
+}
+
 #main-content {
   position: relative;
   display: flex;
